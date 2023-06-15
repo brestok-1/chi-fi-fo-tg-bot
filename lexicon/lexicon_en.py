@@ -2,7 +2,7 @@ LEXICON_EN = {
     'start': "<b>Hi!</b> let's play a game with you "
              "'Pit, scissors, paper'!\nif you suddenly forgot the rules, the /help command will help you!\n\n"
              "<b>Do you want to start the game?</b>'",
-    '/help': 'This is a very simple game. We must simultaneously '
+    'help': 'This is a very simple game. We must simultaneously '
              'make a choice of one of three subjects. Pit, '
              'scissors or paper.\n\nIf our choice '
              'matches are a draw, and in other cases a pit '
@@ -19,5 +19,5 @@ LEXICON_EN = {
     'bot_won': 'I won!\n\nDo you want to play again?',
     'user_won': "You won! Congratulations!\n\nLet's play agan!",
     'nobody_won': 'Draw!\n\n Continue?',
-    'bot_choice': 'My choice is '
+    'bot_choice': 'My choice is'
 }

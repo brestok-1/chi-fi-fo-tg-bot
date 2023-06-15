@@ -31,6 +31,6 @@ async def process_negative_answer(message: Message):
 @router.message(Text(text=[LEXICON_EN['paper'], LEXICON_EN['scissors'], LEXICON_EN['pit']]))
 async def process_game_btn(message: Message):
     bot_choice = get_bot_choice()
-    await message.answer(text=f"{LEXICON_EN['bot_choice']} {LEXICON_EN[bot_choice]}")
+    await message.answer(text=f"{LEXICON_EN['bot_choice']} - {LEXICON_EN[bot_choice]}")
     winner = get_winner(message.text, bot_choice)
     await message.answer(text=LEXICON_EN[winner], reply_markup=yes_no_kb)
